@@ -114,9 +114,9 @@ img1{
 .link a:hover{
     background: #00001A;
 }
- .retro{
+.retro{
     grid-column: -4/-3;
-    grid-row: 3/4;
+    grid-row: 3/4; 
 }
 .laptops{
     grid-column: -3/-2;
@@ -133,13 +133,27 @@ img1{
 
 .list img{
     height: 60%;
-    flex-basis: 180px;
 }
 .line{
     border: 1px solid hsl(36, 100%, 99%);
 
    
 }
+.list p{
+    color: hsl(236, 13%, 42%);
+   }
+
+.list h4{
+    font-size: 1.65rem;
+    font-weight: 800;
+    margin-top: 22px;
+    color:hsl(240, 100%, 5%);
+   }
+
+.list h2{
+    /* font-size: 2.3em; */
+    color: hsl(233, 8%, 79%);
+   } 
 @media (max-width:500px){
      main{
         display: block;
@@ -208,25 +222,23 @@ img1{
         width: 320px;
         margin-bottom: 35px;
     }
-   .me{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: end;
-    
-   } 
+   
    .a,.b,.c{
     padding-left: 15px;
    }
-   .list p{
-    /* padding-top: 17px; */
-   }
+ 
    .list h4{
-    font-size: 1.65rem;
-    margin-top: 22px;
+    /* font-size: 1.65rem; */
+    font-weight: 800;
+    /* margin-top: 22px; */
+    color:hsl(240, 100%, 5%);
    }
    .list h2{
     font-size: 2.3em;
+    color: hsl(233, 8%, 79%);
+   } 
+   .list img{
+    height: 90%;
    }
 
-}
+} 
