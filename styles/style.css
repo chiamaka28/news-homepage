@@ -163,13 +163,13 @@ img1{
     } 
     
     .container{
-        padding:25px 20px;
+        padding:35px;
        
     }
     .toggle{
         display: block;
         top:40px;
-        margin-right: 10px;
+        margin-right: 12px;
        
        
     }
@@ -187,13 +187,7 @@ img1{
         gap: 0;
         
     }
-    list.a{
-        flex-basis: auto;
-        align-items: center;
-        justify-content: center;
-        
-    }
-   
+
     .menu ul.main-menu{
         position: absolute;
         display: block;
@@ -220,13 +214,13 @@ img1{
         margin-bottom: 20px;
     }
     .second{
-        width: 340px;
+        width: 350px;
         margin-bottom: 35px;
     }
    
    .a,.b,.c{
     /* padding-left: 15px; */
-     margin-top: 10px;
+     /* margin-top: 10px; */
     padding: 0 7px;
    
 
@@ -238,18 +232,21 @@ img1{
    .list h4{
     font-weight: 800;
     color:hsl(240, 100%, 5%);
-    margin-top: 3px;
+   
    }
    .list h2{
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: hsl(233, 8%, 79%);
     font-weight: 700;
    } 
    
    .list img{
     width: 100px;
-    height:130px;
+    height:150px;
     margin-top: 10px;
    }
-
+   .list p{
+    margin: 0;
+   
+   }
 } 
