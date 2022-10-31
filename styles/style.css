@@ -224,9 +224,8 @@ img1{
     }
    
    .a,.b,.c{
-   
     margin-top: 10px;
-    padding: 0 7px;
+    padding: 0 11px;
     }
    .pic{
     width:100%;
@@ -247,6 +246,8 @@ img1{
    }
    .list p{
     font-size: 15px;
+    color:  hsl(225, 2%, 51%);;
+    /* margin: 0; */
    }
    
    .list img{
@@ -254,8 +255,5 @@ img1{
     height:130px;
     margin-top: 10px;
    }
-   .list p{
-    margin: 0;
-   
-   }
+  
 } 
