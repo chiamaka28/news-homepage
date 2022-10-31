@@ -165,7 +165,7 @@ img1{
     } 
     
     .container{
-        padding:35px;
+        padding:30px;
        
     }
     .toggle{
@@ -224,8 +224,8 @@ img1{
     }
    
    .a,.b,.c{
-    /* padding-left: 15px; */
-     /* margin-top: 10px; */
+   
+    margin-top: 10px;
     padding: 0 7px;
     }
    .pic{
@@ -238,10 +238,16 @@ img1{
    
    }
    .list h2{
-    font-size: 2rem;
+    font-size: 20px;
     color: hsl(233, 8%, 79%);
     font-weight: 700;
    } 
+   .list h4{
+    font-size: 17px;
+   }
+   .list p{
+    font-size: 12px;
+   }
    
    .list img{
     width: 100px;
